@@ -1,0 +1,1 @@
+var b=!0;function show(o){console.log(o)}var a="q";function show1(o){console.log(o+"11111")}var c="1111";

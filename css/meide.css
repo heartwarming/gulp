@@ -1,0 +1,101 @@
+header .logo,.product a img {
+	margin: 0 auto
+}
+
+header .user img,header .search img {
+	width: 100%;
+	height: 100%;
+	display: block
+}
+
+.describe,.product a {
+	text-align: center
+}
+
+* {
+	margin: 0;
+	padding: 0
+}
+
+header {
+	width: 100%;
+	position: relative;
+	padding-top: 0.1rem;
+	padding-bottom: 0.1rem;
+	background-color: #0092D8
+}
+
+header .logo {
+	background: url("../images/logo.png") no-repeat;
+	width: 0.9rem;
+	height: 0.24rem;
+	background-size: cover;
+	-webkit-background-size: cover
+}
+
+header .user {
+	width: 0.19rem;
+	height: 0.24rem;
+	position: absolute;
+	top: 0.1rem;
+	left: 0.11rem
+}
+
+header .search {
+	width: 0.22rem;
+	height: 0.22rem;
+	position: absolute;
+	top: 0.1rem;
+	right: 0.09rem
+}
+
+.describe {
+	color: #ffe226;
+	background-color: #6685e4;
+	padding-top: 0.06rem;
+	padding-bottom: 0.06rem;
+	padding-left: 0.05rem;
+	padding-right: 0.05rem;
+	font-size: 0.11rem
+}
+
+.banner {
+	background: url("../images/banner.png") no-repeat;
+	width: 100%;
+	height: 2rem;
+	background-size: cover;
+	-webkit-background-size: cover
+}
+
+a {
+	text-decoration: none;
+	color: #333
+}
+
+.product-first {
+	border-top: 1px solid #edeeec
+}
+
+.product {
+	display: box;
+	display: -webkit-box
+}
+
+.product a {
+	-webkit-box-flex: 1;
+	box-flex: 1;
+	border-right: 1px solid #edeeec;
+	border-bottom: 1px solid #edeeec;
+	display: block;
+	height: 100px;
+	font-size: 0.12rem;
+	padding-top: 0.23rem;
+	padding-bottom: 0.15rem
+}
+
+.product a img {
+	width: 0.6rem;
+	height: 0.6rem;
+	display: block;
+	margin-bottom: 0.26rem
+}
